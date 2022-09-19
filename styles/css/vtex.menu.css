@@ -1,0 +1,23 @@
+.styledLinkContent--menu-item-header-bot{
+  color: #FFFFFF;
+}
+
+.menuContainerNav--header-bot-menu{
+  width: 100%;
+}
+
+.menuContainer--header-bot-menu{
+  display: flex;
+  justify-content: space-between;
+}
+
+.styledLinkContainer--menu-item-header-bot{
+  margin: 0;
+  padding: 0;
+}
+
+.styledLinkIcon--menu-item-header-bot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

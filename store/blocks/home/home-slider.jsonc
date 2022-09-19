@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#container-slider-home":{
+    "props": {
+      "blockClass": "slider-home",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "list-context.image-list#slider"
+    ]
+  },
+
+  "list-context.image-list#slider":{
+    "children": ["slider-layout#home"],
+    "props": {
+      "height": 520,
+      "images": [
+        {
+          "image": "assets/imgs/banner/banner-image-1.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/imgs/banner/banner-image-1.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#home": {
+    "props": {
+      "blockClass": "slider-home",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "flex-layout.row#header-bot": {
+    "props": {
+      "blockClass": "header-bot",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#header-bot-menu"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#header-bot-menu":{
+    "props": {
+      "blockClass": "header-bot-menu",
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#todas-categorias",
+      "menu-item#smartphones-header",
+      "menu-item#acessorios",
+      "menu-item#notebooks",
+      "menu-item#computadores",
+      "menu-item#fones"
+    ]
+  },
+
+  "menu-item#todas-categorias": {
+    "props": {
+      "blockClass": ["menu-item-header-bot","todas-categorias"],
+      "id": "menu-item-todas-categorias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Todas as Categorias",
+        "text": "Todas as Categorias"
+      },
+      "iconProps": {
+        "id": "hpa-arrow-to-bottom",
+        "size": 13,
+        "viewBox": "0 0 13 13"
+      },
+      "iconPosition": "right"
+    }
+  },
+
+  "menu-item#smartphones-header": {
+    "props": {
+      "blockClass": "menu-item-header-bot",
+      "id": "menu-item-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
+      },
+      "iconProps": {
+        "id": "hpa-arrow-to-bottom",
+        "size": 13,
+        "viewBox": "0 0 13 13"
+      },
+      "iconPosition": "right"
+    }
+  },
+
+  "menu-item#acessorios": {
+    "props": {
+      "blockClass": "menu-item-header-bot",
+      "id": "menu-item-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      },
+      "iconProps": {
+        "id": "hpa-arrow-to-bottom",
+        "size": 13,
+        "viewBox": "0 0 13 13"
+      },
+      "iconPosition": "right"
+    }
+  },
+
+  "menu-item#notebooks": {
+    "props": {
+      "blockClass": "menu-item-header-bot",
+      "id": "menu-item-notebooks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Notebooks",
+        "text": "Notebooks"
+      },
+      "iconProps": {
+        "id": "hpa-arrow-to-bottom",
+        "size": 13,
+        "viewBox": "0 0 13 13"
+      },
+      "iconPosition": "right"
+    }
+  },
+
+  "menu-item#computadores": {
+    "props": {
+      "blockClass": "menu-item-header-bot",
+      "id": "menu-item-computadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Computadores",
+        "text": "Computadores"
+      },
+      "iconProps": {
+        "id": "hpa-arrow-to-bottom",
+        "size": 13,
+        "viewBox": "0 0 13 13"
+      },
+      "iconPosition": "right"
+    }
+  },
+
+  "menu-item#fones": {
+    "props": {
+      "blockClass": "menu-item-header-bot",
+      "id": "menu-item-fones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Fones de ouvido",
+        "text": "Fones de ouvido"
+      },
+      "iconProps": {
+        "id": "hpa-arrow-to-bottom",
+        "size": 13,
+        "viewBox": "0 0 13 13"
+      },
+      "iconPosition": "right"
+    }
+  }
+}

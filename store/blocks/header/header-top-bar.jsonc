@@ -1,0 +1,120 @@
+{
+  "flex-layout.row#header-top": {
+    "props": {
+      "blockClass": "header-top",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop-prumo",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.col#header-top-menu"
+    ]
+  },
+
+  "flex-layout.col#logo-desktop-prumo": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop-prumo"]
+  },
+
+  "logo#desktop-prumo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imgs/top-bar/logo.png",
+      "width": "208",
+      "height": "31.72"
+    }
+  },
+
+  "flex-layout.col#header-top-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["flex-layout.row#header-top-menu-items"]
+  },
+
+  "flex-layout.row#header-top-menu-items":{
+    "props": {
+      "blockClass": "header-top-menu-items",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#icon-chat-col",
+      "flex-layout.col#icon-heart-col",
+      "flex-layout.col#icon-login-col",
+      "flex-layout.col#icon-minicart-col"
+    ]
+  },
+
+  "flex-layout.col#icon-chat-col": {
+    "props": {
+      "blockClass": "menu-item",
+      "verticalAlign": "middle"
+    },
+    "children": ["image#icon-chat"]
+  },
+  "image#icon-chat": {
+    "props": {
+      "src": "assets/imgs/top-bar/chat-icon.png",
+      "maxWidth": 35,
+      "maxHeight": 35
+    }
+  },
+
+  "flex-layout.col#icon-heart-col": {
+    "props": {
+      "blockClass": "menu-item",
+      "verticalAlign": "middle"
+    },
+    "children": ["image#icon-heart"]
+  },
+  "image#icon-heart": {
+    "props": {
+      "src": "assets/imgs/top-bar/wishlist-icon.png",
+      "maxWidth": 35,
+      "maxHeight": 35
+    }
+  },
+
+  "flex-layout.col#icon-login-col": {
+    "props": {
+      "blockClass": "menu-item",
+      "verticalAlign": "middle"
+    },
+    "children": ["image#icon-login"]
+  },
+  "image#icon-login": {
+    "props": {
+      "src": "assets/imgs/top-bar/login-icon.png",
+      "maxWidth": 35,
+      "maxHeight": 35
+    }
+  },
+
+  "flex-layout.col#icon-minicart-col": {
+    "props": {
+      "blockClass": "menu-item",
+      "verticalAlign": "middle"
+    },
+    "children": ["image#icon-minicart"]
+  },
+  "image#icon-minicart": {
+    "props": {
+      "src": "assets/imgs/top-bar/minicart-icon.png",
+      "maxWidth": 35,
+      "maxHeight": 35
+    }
+  }
+
+}
