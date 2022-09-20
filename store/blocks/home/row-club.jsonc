@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#club":{
+    "props": {
+      "blockClass": "club",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#club1",
+      "flex-layout.col#club2",
+      "flex-layout.col#club3"
+    ]
+  },
+
+  "flex-layout.col#club1":{
+    "props": {
+      "blockClass": "club"
+    },
+    "children": [
+      "image#club1",
+      "rich-text#club1"
+    ]
+  },
+  "image#club1":{
+    "props": {
+      "src": "assets/imgs/club/subscribe-icon.png",
+      "maxHeight": "28.72px"
+    }
+  },
+  "rich-text#club1": {
+    "props": {
+      "text": "SEJA ASSINANTE DO NOSSO CLUBE",
+      "blockClass": "club"
+    }
+  },
+
+  "flex-layout.col#club2":{
+    "props": {
+      "blockClass": "club"
+    },
+    "children": [
+      "image#club2",
+      "rich-text#club2"
+    ]
+  },
+  "image#club2":{
+    "props": {
+      "src": "assets/imgs/club/clock-icon.png",
+      "maxHeight": "38"
+    }
+  },
+  "rich-text#club2": {
+    "props": {
+      "text": "PROMOÇÕES DIÁRIAS - 24 HORAS",
+      "blockClass": "club"
+    }
+  },
+
+  "flex-layout.col#club3":{
+    "props": {
+      "blockClass": "club"
+    },
+    "children": [
+      "image#club3",
+      "rich-text#club3"
+    ]
+  },
+  "image#club3":{
+    "props": {
+      "src": "assets/imgs/club/gift-icon.png",
+      "maxHeight": "38"
+    }
+  },
+  "rich-text#club3": {
+    "props": {
+      "text": "ACUMULE PONTOS E TROQUE",
+      "blockClass": "club"
+    }
+  }
+}

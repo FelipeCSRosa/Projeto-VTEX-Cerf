@@ -33,3 +33,20 @@
 .paginationDotsContainer--slider-home{
   display: none;
 }
+
+.caretIcon--slider-categories{
+  display: none;
+}
+
+.paginationDotsContainer--slider-categories{
+  margin-top: 30px;
+}
+
+.sliderLayoutContainer--slider-categories{
+  height: 235px;
+}
+
+.sliderTrackContainer--slider-categories{
+  position: absolute;
+  top: 15px;
+}

@@ -88,3 +88,13 @@
     line-height: 1.3em;
   }
 }
+
+/*Club*/
+.container--club{
+  padding: 0 20px;
+}
+
+/*Categories*/
+.paragraph--categories{
+  margin: 0;
+}

@@ -1,0 +1,117 @@
+{
+  "flex-layout.row#categories":{
+    "props": {
+      "blockClass": "categories",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":["slider-layout#categories"]
+  },
+
+  "slider-layout#categories": {
+    "props": {
+      "blockClass": "slider-categories",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 6,
+        "phone": 1
+      },
+      "infinite": true
+    },
+    "children": [
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2",
+      "flex-layout.col#categorie1",
+      "flex-layout.col#categorie2"
+    ]
+  },
+
+  "flex-layout.col#categorie1":{
+    "props": {
+      "blockClass": "categories",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#image-categorie1",
+      "rich-text#categorie1"
+    ]
+  },
+  "flex-layout.row#image-categorie1":{
+    "props": {
+      "blockClass": "categories-image",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":["image#categorie1"]
+  },
+  "image#categorie1":{
+    "props": {
+      "blockClass": "img-categories",
+      "src": "assets/imgs/categories/informatica.png",
+      "maxHeight": "106px"
+    }
+  },
+  "rich-text#categorie1":{
+    "props": {
+      "text": "INFORMÁTICA",
+      "blockClass": "categories"
+    }
+  },
+
+  "flex-layout.col#categorie2":{
+    "props": {
+      "blockClass": "categories",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#image-categorie2",
+      "rich-text#categorie2"
+    ]
+  },
+  "flex-layout.row#image-categorie2":{
+    "props": {
+      "blockClass": "categories-image",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":["image#categorie2"]
+  },
+  "image#categorie2":{
+    "props": {
+      "src": "assets/imgs/categories/fitness.png",
+      "maxHeight": "118px"
+    }
+  },
+  "rich-text#categorie2":{
+    "props": {
+      "text": "FITNESS",
+      "blockClass": "categories"
+    }
+  }
+}

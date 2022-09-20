@@ -2,9 +2,8 @@
   "store.home": {
     "blocks": [
       "flex-layout.row#container-slider-home",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
+      "flex-layout.row#club",
+      "flex-layout.row#categories",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",

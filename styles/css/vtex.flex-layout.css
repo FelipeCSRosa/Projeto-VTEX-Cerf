@@ -129,3 +129,62 @@
 .flexRowContent--header-bot{
   max-width: 1200px;
 }
+
+/*Slider Home*/
+.flexRow--slider-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--slider-home{
+  max-width: 1680px;
+}
+
+/*Club*/
+.flexRow--club{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 66px;
+}
+
+.flexRowContent--club{
+  max-width: 1200px;
+}
+
+.flexCol--club{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--club{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Categories*/
+.flexRow--categories{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--categories{
+  max-width: 1200px;
+}
+
+.flexCol--categories{
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--categories-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
