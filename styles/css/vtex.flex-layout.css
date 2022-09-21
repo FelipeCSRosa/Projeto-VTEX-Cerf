@@ -188,3 +188,48 @@
   justify-content: center;
   height: 120px;
 }
+
+/*Linhas*/
+.flexRow--linhas{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--linhas{
+  max-width: 1200px;
+}
+
+/*Descontaco*/
+.flexRow--descontaco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1010px;
+  margin-top: 30px;
+}
+
+.flexRowContent--descontaco{
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCol--descontaco{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCol--descontaco2-direita{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 585px;
+}
+
+.flexRow--direita2{
+
+}
