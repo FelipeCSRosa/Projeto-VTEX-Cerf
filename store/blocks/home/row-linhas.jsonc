@@ -1,0 +1,40 @@
+{
+	"flex-layout.row#linhas":{
+    "props": {
+      "blockClass": "linhas",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":[
+			"image#linhas-fones",
+			"image#linhas-pcsgamers",
+			"image#linhas-apple"
+		]
+  },
+
+	"image#linhas-fones":{
+    "props": {
+      "blockClass": "linhas",
+      "src": "assets/imgs/linhas/fones.png",
+      "maxHeight": "380px"
+    }
+  },
+
+	"image#linhas-pcsgamers":{
+    "props": {
+      "blockClass": "linhas",
+      "src": "assets/imgs/linhas/pcsgamer.png",
+      "maxHeight": "380px"
+    }
+  },
+
+	"image#linhas-apple":{
+    "props": {
+      "blockClass": "linhas",
+      "src": "assets/imgs/linhas/apple.png",
+      "maxHeight": "380px"
+    }
+  }
+}

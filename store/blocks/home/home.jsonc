@@ -4,6 +4,8 @@
       "flex-layout.row#container-slider-home",
       "flex-layout.row#club",
       "flex-layout.row#categories",
+      "flex-layout.row#linhas",
+      "flex-layout.row#area-descontaco",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",

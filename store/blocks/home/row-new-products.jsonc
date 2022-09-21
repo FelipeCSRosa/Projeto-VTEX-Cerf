@@ -1,0 +1,12 @@
+{
+	"flex-layout.row#new-products":{
+    "props": {
+      "blockClass": "linhas",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":[]
+  }
+}
