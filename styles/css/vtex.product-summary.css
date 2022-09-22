@@ -40,3 +40,81 @@
 .image {
   border-radius: 0.25rem;
 }
+
+/*New products*/
+.productBrand--new-products{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #444444;
+}
+
+.nameContainer--new-products{
+  min-height: 37px;
+  padding: 0;
+}
+
+.priceContainer--new-products{
+  align-items: flex-start;
+  padding: 0;
+  min-height: 72px;
+  margin-top: 15px;
+}
+
+.productPriceClass--new-products{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.price_sellingPrice--new-products{
+  padding: 0;
+}
+
+.price_listPriceLabel--new-products,
+.price_sellingPriceLabel--new-products{
+  display: none;
+}
+
+.price_listPrice--new-products{
+  padding-left: 0;
+}
+
+/*smartphones*/
+.productBrand--smartphones{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #444444;
+}
+
+.nameContainer--smartphones{
+  min-height: 37px;
+  padding: 0;
+}
+
+.priceContainer--smartphones{
+  align-items: flex-start;
+  padding: 0;
+  min-height: 72px;
+  margin-top: 15px;
+}
+
+.productPriceClass--smartphones{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.price_sellingPrice--smartphones{
+  padding: 0;
+}
+
+.price_listPriceLabel--smartphones,
+.price_sellingPriceLabel--smartphones{
+  display: none;
+}
+
+.price_listPrice--smartphones{
+  padding-left: 0;
+}

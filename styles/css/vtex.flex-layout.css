@@ -191,7 +191,7 @@
 
 /*Linhas*/
 .flexRow--linhas{
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,35 +201,30 @@
   max-width: 1200px;
 }
 
-/*Descontaco*/
-.flexRow--descontaco{
+/*New-products*/
+.flexRow--new-products{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--new-products{
+  max-width: 1200px;
+}
+
+/*smartphones*/
+.flexRow--smartphones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRowContent--smartphones{
+  max-width: 1200px;
+}
+
+.flexColChild--smartphones-left{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1010px;
-  margin-top: 30px;
-}
-
-.flexRowContent--descontaco{
-  max-width: 1170px;
-  display: flex;
-  flex-direction: column;
-}
-
-.flexCol--descontaco{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flexCol--descontaco2-direita{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 585px;
-}
-
-.flexRow--direita2{
-
 }

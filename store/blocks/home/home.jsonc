@@ -5,15 +5,24 @@
       "flex-layout.row#club",
       "flex-layout.row#categories",
       "flex-layout.row#linhas",
-      "flex-layout.row#area-descontaco",
-      "__fold__",
-      "rich-text#shelf-title",
+      "rich-text#new-products-title",
+      "flex-layout.row#new-products",
+      "flex-layout.row#smartphones",
+      "__fold__"
+/*       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
-      "newsletter"
+      "newsletter" */
     ]
+  },
+
+  "rich-text#new-products-title":{
+    "props": {
+      "text": "Novos Produtos",
+      "blockClass": "newProdsTitle"
+    }
   },
 
   "list-context.image-list#demo": {

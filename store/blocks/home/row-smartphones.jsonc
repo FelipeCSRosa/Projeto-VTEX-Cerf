@@ -1,0 +1,105 @@
+{
+	"flex-layout.row#smartphones":{
+    "props": {
+      "blockClass": "smartphones",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "fullWidth": true
+    },
+    "children":[
+      "flex-layout.col#smartphones-left",
+      "flex-layout.col#smartphones-right"
+    ]
+  },
+
+  "flex-layout.col#smartphones-left":{
+    "props": {
+      "blockClass": "smartphones-left",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#smartphones"
+    ]
+  },
+  "image#smartphones":{
+    "props": {
+      "blockClass": "smartphones",
+      "src": "assets/imgs/smartphones/smartphones-banner.png"
+    }
+  },
+
+  "flex-layout.col#smartphones-right":{
+    "props": {
+      "blockClass": "smartphones-right",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#smartphones-title",
+      "list-context.product-list#smartphones"
+    ]
+  },
+  "rich-text#smartphones-title":{
+    "props": {
+      "text": "Smartphones",
+      "blockClass": "smartphonesTitle"
+    }
+  },
+  "list-context.product-list#smartphones":{
+    "blocks": ["product-summary.shelf#smartphones"],
+    "children": ["slider-layout#smartphones"],
+    "props": {
+      "blockClass": "smartphones",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "slider-layout#smartphones": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "smartphones"
+    }
+  },
+
+  "product-summary.shelf#smartphones": {
+    "children": [
+      "product-summary-image#smartphones",
+      "product-summary-name#smartphones",
+      "product-summary-price#smartphones",
+      "product-summary-buy-button#smartphones"
+    ], 
+    "props": {
+      "blockClass": "smartphones"
+    }
+  },
+
+  "product-summary-image#smartphones": {
+    "props": {
+      "showBadge": true,
+      "height": 285
+    }
+  },
+
+  "product-summary-name#smartphones":{
+    "props": {
+      "blockClass": "smartphones"
+    }
+  },
+
+  "product-summary-price#smartphones":{
+    "props": {
+      "blockClass": "smartphones"
+    }
+  },
+
+  "product-summary-buy-button#smartphones": {
+    "props": {
+      "blockClass": "smartphones"
+    }
+  }
+}
