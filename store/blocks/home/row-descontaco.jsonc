@@ -1,0 +1,64 @@
+{
+	"flex-layout.row#descontaco1":{
+		"props": {
+			"blockClass": ["descontaco","descontaco1"],
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children":[
+			"image#descontaco1"
+		]
+	},
+	"image#descontaco1":{
+		"props": {
+		  "blockClass": "img-descontaco",
+		  "src": "assets/imgs/descontaco/descontaco1.png",
+		  "maxHeight": "235px"
+		}
+	},
+
+	"flex-layout.row#descontaco2":{
+		"props": {
+			"blockClass": ["descontaco","descontaco2"],
+			"horizontalAlign": "between",
+			"preventVerticalStretch": true,
+			"preventHorizontalStretch": true,
+			"fullWidth": true
+		},
+		"children":[
+			"image#descontaco2",
+			"flex-layout.col#descontaco-row2-right"
+		]
+	},
+	"image#descontaco2":{
+		"props": {
+		  "blockClass": "img-descontaco",
+		  "src": "assets/imgs/descontaco/descontaco2.png",
+		  "maxHeight": "585px"
+		}
+	},
+	"flex-layout.col#descontaco-row2-right":{
+    "props": {
+      "blockClass": "descontaco",
+      "verticalAlign": "middle"
+    },
+    "children": [
+			"image#descontaco3",
+			"image#descontaco4"
+    ]
+  },
+	"image#descontaco3":{
+		"props": {
+		  "blockClass": "img-descontaco",
+		  "src": "assets/imgs/descontaco/descontaco3.png",
+		  "maxHeight": "280px"
+		}
+	},
+	"image#descontaco4":{
+		"props": {
+		  "blockClass": "img-descontaco",
+		  "src": "assets/imgs/descontaco/descontaco4.png",
+		  "maxHeight": "280px"
+		}
+	}
+}

@@ -217,6 +217,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .flexRowContent--smartphones{
@@ -227,4 +228,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*Descontaco*/
+.flexRow--descontaco{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexRow--descontaco1{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.flexRow--descontaco2{
+  margin-bottom: 50px;
+}
+
+.flexRowContent--descontaco{
+  max-width: 1170px;
+}
+
+.flexCol--descontaco{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

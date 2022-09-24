@@ -3,12 +3,17 @@
     "blocks": [
       "flex-layout.row#container-slider-home",
       "flex-layout.row#club",
+      "__fold__",
       "flex-layout.row#categories",
       "flex-layout.row#linhas",
       "rich-text#new-products-title",
       "flex-layout.row#new-products",
       "flex-layout.row#smartphones",
-      "__fold__"
+      "flex-layout.row#descontaco1",
+      "flex-layout.row#descontaco2",
+      "rich-text#new-products-title",
+      "flex-layout.row#new-products",
+      "flex-layout.row#descontaco-banner"
 /*       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
@@ -24,6 +29,24 @@
       "blockClass": "newProdsTitle"
     }
   },
+
+  "flex-layout.row#descontaco-banner":{
+    "props": {
+      "blockClass": "descontaco-banner",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":["image#descontaco-banner"]
+  },
+  "image#descontaco-banner":{
+		"props": {
+		  "blockClass": "descontaco-banner",
+		  "src": "assets/imgs/descontaco/descontaco-banner.png",
+		  "maxHeight": "235px"
+		}
+	},
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],

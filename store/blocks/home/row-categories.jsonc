@@ -18,7 +18,11 @@
         "tablet": 6,
         "phone": 1
       },
-      "infinite": true
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
     },
     "children": [
       "flex-layout.col#categorie1",
