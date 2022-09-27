@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#instagram": {
+    "props": {
+			"blockClass": "instagram",
+			"preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+			"fullWidth": true
+		},
+		"children":[
+			"image#instagram-logo",
+      "rich-text#instagram",
+      "image#instagram1"
+		]
+  },
+
+  "image#instagram-logo": {
+    "props": {
+		  "blockClass": ["instagram", "instagram-logo"],
+		  "src": "assets/imgs/instagram/instagram-logo.png",
+		  "maxHeight": "33px"
+		}
+  },
+
+  "rich-text#instagram":{
+    "props": {
+      "text": "### Instagram",
+      "blockClass": "instagram"
+    }
+  },
+
+  "image#instagram1": {
+    "props": {
+		  "blockClass": ["instagram", "instagram1"],
+		  "src": "assets/imgs/instagram/instagram1.png",
+		  "maxHeight": "311px"
+		}
+  }
+}

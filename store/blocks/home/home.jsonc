@@ -13,7 +13,8 @@
       "flex-layout.row#descontaco2",
       "rich-text#new-products-title",
       "flex-layout.row#new-products",
-      "flex-layout.row#descontaco-banner"
+      "flex-layout.row#descontaco-banner",
+      "flex-layout.row#instagram"
 /*       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",

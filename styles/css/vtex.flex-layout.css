@@ -255,3 +255,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+/*Instagram*/
+.flexRow--instagram {
+  margin-top: 50px;
+}
+
+.flexRowContent--instagram{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
