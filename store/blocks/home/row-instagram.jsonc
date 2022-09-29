@@ -9,7 +9,8 @@
 		"children":[
 			"image#instagram-logo",
       "rich-text#instagram",
-      "image#instagram1"
+      "image#instagram1",
+      "follow-button"
 		]
   },
 

@@ -1,5 +1,8 @@
 {
   "follow-button": {
     "component": "FollowButton"
+  },
+  "news": {
+    "component": "News"
   }
 }

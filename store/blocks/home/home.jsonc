@@ -3,7 +3,7 @@
     "blocks": [
       "flex-layout.row#container-slider-home",
       "flex-layout.row#club",
-      "__fold__",
+/*       "__fold__", */
       "flex-layout.row#categories",
       "flex-layout.row#linhas",
       "rich-text#new-products-title",
@@ -14,7 +14,8 @@
       "rich-text#new-products-title",
       "flex-layout.row#new-products",
       "flex-layout.row#descontaco-banner",
-      "flex-layout.row#instagram"
+      "flex-layout.row#instagram",
+      "news"
 /*       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",

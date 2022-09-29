@@ -1,0 +1,14 @@
+.followButtonContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.followButton {
+    border: 1px solid #23475E;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 16px 44px;
+    cursor: pointer;
+}
