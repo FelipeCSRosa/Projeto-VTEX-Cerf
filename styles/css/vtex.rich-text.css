@@ -119,3 +119,12 @@
   font-size: 24px;
   line-height: 28px;
 }
+
+/*Footer*/
+.paragraph--institucional{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: #23475E;
+  margin: 0 0 19px 0;
+}

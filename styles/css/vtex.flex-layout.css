@@ -266,3 +266,30 @@
   justify-content: center;
   align-items: center;
 }
+
+/*Footer*/
+.flexRow--footer{
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--footer{
+  max-width: 1200px;
+}
+
+.flexCol--footer1-right{
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flexCol--footer1-left{
+  justify-content: flex-start;
+}
+
+.flexRowContent--footer-left-icons{
+  gap: 11px;
+}
+
+.flexCol--menucol {
+  justify-content: flex-start;
+}

@@ -1,0 +1,203 @@
+{
+  "flex-layout.row#footer1":{
+		"props": {
+			"blockClass": ["footer","footer1"],
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+    "children":[
+			"flex-layout.col#footer1-left",
+      "flex-layout.col#footer1-right"
+		]
+  },
+
+  "flex-layout.col#footer1-left":{
+    "props": {
+      "blockClass": "footer1-left",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#logo-footer",
+      "rich-text#footer1-left",
+      "flex-layout.row#footer1-left-icons"
+    ]
+  },
+
+  "image#logo-footer": {
+    "props": {
+		  "blockClass": "logo-footer",
+		  "src": "assets/imgs/footer-imgs/logofooter.png",
+		  "maxHeight": "18px"
+		}
+  },
+
+  "rich-text#footer1-left":{
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "blockClass": "footer1-left"
+    }
+  },
+
+  "flex-layout.row#footer1-left-icons":{
+		"props": {
+			"blockClass": ["footer","footer-left-icons"],
+			"preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+			"fullWidth": true
+		},
+    "children": [
+      "image#logofacebook",
+      "image#logoinstagram",
+      "image#logotwitter",
+      "image#logoyoutube"
+    ]
+  },
+
+  "image#logofacebook": {
+    "props": {
+		  "blockClass": "icon-footer",
+		  "src": "assets/imgs/footer-imgs/logofacebook.png",
+		  "maxHeight": "35px"
+		}
+  },
+
+  "image#logoinstagram": {
+    "props": {
+		  "blockClass": "icon-footer",
+		  "src": "assets/imgs/footer-imgs/logoinstagram.png",
+		  "maxHeight": "35px"
+		}
+  },
+
+  "image#logotwitter": {
+    "props": {
+		  "blockClass": "icon-footer",
+		  "src": "assets/imgs/footer-imgs/logotwitter.png",
+		  "maxHeight": "35px"
+		}
+  },
+
+  "image#logoyoutube": {
+    "props": {
+		  "blockClass": "icon-footer",
+		  "src": "assets/imgs/footer-imgs/logoyoutube.png",
+		  "maxHeight": "35px"
+		}
+  },
+
+  "flex-layout.col#footer1-right":{
+    "props": {
+      "blockClass": "footer1-right",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.col#institucional",
+      "flex-layout.col#institucional",
+      "flex-layout.col#institucional"
+    ]
+  },
+
+  "flex-layout.col#institucional":{
+    "props": {
+      "blockClass": ["menucol","institucional"],
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#institucional",
+      "vtex.menu@2.x:menu#institucional"
+    ]
+  },
+
+  "rich-text#institucional":{
+    "props": {
+      "text": "INSTITUCIONAL",
+      "blockClass": "institucional"
+    }
+  },
+
+  "vtex.menu@2.x:menu#institucional": {
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobrenos",
+      "menu-item#nossaslojas",
+      "menu-item#blog"
+    ]
+  },
+
+  "menu-item#sobrenos": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "sobrenos",
+        "text": "Sobre Nós"
+      }
+    }
+  },
+
+  "menu-item#nossaslojas": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-nossaslojas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "nossaslojas",
+        "text": "Nossas Lojas"
+      }
+    }
+  },
+
+  "menu-item#blog": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#politicas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobrenos",
+      "menu-item#nossaslojas",
+      "menu-item#blog",
+      "menu-item#sobrenos"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#ajuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobrenos",
+      "menu-item#nossaslojas",
+      "menu-item#blog"
+    ]
+  }
+}
