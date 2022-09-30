@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#footer2":{
+		"props": {
+			"blockClass": ["footer","footer2"],
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+    "children":[
+      "flex-layout.col#footer2-left",
+      "flex-layout.col#footer2-right"
+    ]
+  },
+
+  "flex-layout.col#footer2-left":{
+    "props": {
+      "blockClass": ["footer2-col","footer2-left"],
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#footer2-left",
+      "flex-layout.col#footer2-left-imgs"
+    ]
+  },
+  "flex-layout.col#footer2-left-imgs":{
+    "props": {
+      "blockClass": ["footer2-col","footer2-left-imgs"],
+      "verticalAlign": "middle"
+    },
+    "children":[
+      "image#mastercard",
+      "image#visa",
+      "image#elo",
+      "image#mastercard",
+      "image#visa",
+      "image#elo",
+      "image#elo",
+      "image#mastercard"
+    ]
+  },
+  "rich-text#footer2-left":{
+    "props": {
+      "text": "FORMAS DE PAGAMENTO",
+      "blockClass": "footer2-left"
+    }
+  },
+  "image#mastercard":{
+    "props": {
+		  "blockClass": "ft2lft-img",
+		  "src": "assets/imgs/footer-imgs/mastercard.png",
+		  "maxHeight": "30px"
+		}
+  },
+  "image#visa":{
+    "props": {
+		  "blockClass": "ft2lft-img",
+		  "src": "assets/imgs/footer-imgs/visa.png",
+		  "maxHeight": "30px"
+		}
+  },
+  "image#elo":{
+    "props": {
+		  "blockClass": "ft2lft-img",
+		  "src": "assets/imgs/footer-imgs/elo.png",
+		  "maxHeight": "30px"
+		}
+  },
+
+  "flex-layout.col#footer2-right":{
+    "props": {
+      "blockClass": ["footer2-col","footer2-right"],
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#footer2-right",
+      "flex-layout.col#footer2-right-imgs"
+    ]
+  },
+  "flex-layout.col#footer2-right-imgs":{
+    "props": {
+      "blockClass": ["footer2-col","footer2-righ-imgs"],
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#vtexcertified",
+      "image#vtexcertified",
+      "image#vtexcertified"
+    ]
+  },
+  "rich-text#footer2-right":{
+    "props": {
+      "text": " CERTIFICADOS",
+      "blockClass": "footer2-right"
+    }
+  },
+  "image#vtexcertified":{
+    "props": {
+		  "blockClass": "ft2lft-img",
+		  "src": "assets/imgs/footer-imgs/vtexcertified.png",
+		  "maxHeight": "77px"
+		}
+  }
+}

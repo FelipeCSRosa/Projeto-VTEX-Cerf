@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#footer3": {
+		"props": {
+			"blockClass": "footer3",
+			"preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+			"fullWidth": true
+		},
+    "children":[
+      "rich-text#footer3",
+      "flex-layout.col#footer3-imgs"
+    ]
+  },
+  "flex-layout.col#footer3-imgs":{
+    "props": {
+      "blockClass": "footer3-imgs",
+      "verticalAlign": "middle"
+    },
+    "children":[
+      "image#vtex-logo-footer",
+      "image#prumo-logo-footer"
+    ]
+  },
+  "rich-text#footer3":{
+    "props": {
+      "text": "Preços e condições válidas apenas para compras pela internet ou televendas, nesta data ou enquanto houver estoque. Prumo Serviços de Consultoria em e-Commerce LTDA - CNPJ 37.229.264/0001-21 - Rua Domênico Fin, 0 - Farroupilha, RS - Imagens meramente ilustrativas. Todos os direitos reservados © 2021",
+      "blockClass": "footer3"
+    }
+  },
+  "image#vtex-logo-footer":{
+    "props": {
+		  "blockClass": "ft3-img",
+		  "src": "assets/imgs/footer-imgs/vtex-logo-footer.png",
+		  "maxHeight": "36px"
+		}
+  },
+  "image#prumo-logo-footer":{
+    "props": {
+		  "blockClass": "ft3-img",
+		  "src": "assets/imgs/footer-imgs/prumo-logo-footer.png",
+		  "maxHeight": "9px"
+		}
+  }
+}

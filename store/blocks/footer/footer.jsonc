@@ -4,7 +4,9 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer1"/* ,
+      "flex-layout.row#footer1",
+      "flex-layout.row#footer2",
+      "flex-layout.row#footer3"/* ,
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop" */

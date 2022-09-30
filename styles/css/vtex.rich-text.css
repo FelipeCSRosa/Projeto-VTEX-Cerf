@@ -128,3 +128,22 @@
   color: #23475E;
   margin: 0 0 19px 0;
 }
+
+.paragraph--footer2-right,
+.paragraph--footer2-left{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  color: #878787;
+}
+
+.container--footer3{
+  max-width: 870px;
+}
+
+.paragraph--footer3{
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  color: #FFFFFF;
+}
