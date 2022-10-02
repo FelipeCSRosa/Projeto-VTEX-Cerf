@@ -11,4 +11,14 @@
     width: fit-content;
     padding: 16px 44px;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: #23475E;
+}
+
+.followButton:hover {
+    background-color: #23475E;
+    color: #ffffff;
+    transition: 300ms ease;
 }

@@ -110,7 +110,7 @@
   line-height: 28px;
 }
 
-/*New Products*/
+/*Smartphones*/
 .container--smartphonesTitle {
   color: #23475E;
   justify-content: flex-start;
@@ -119,6 +119,16 @@
   font-size: 24px;
   line-height: 28px;
 }
+
+/*Depoimentos*/
+.container--depoimentosTitle{
+  justify-content: center;
+  color: #23475E;
+  text-align: start;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+} 
 
 /*Footer*/
 .paragraph--institucional{
@@ -146,4 +156,19 @@
   font-size: 10px;
   line-height: 11px;
   color: #FFFFFF;
+}
+
+.paragraph--club{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #444444;
+}
+
+.paragraph--categories{
+  text-align: center;
+}
+
+.container--depoimentosTitle{
+  margin-top: 30px;
 }

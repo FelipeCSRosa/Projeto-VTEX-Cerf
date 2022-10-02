@@ -53,7 +53,9 @@
       "flex-layout.col#icon-chat-col",
       "flex-layout.col#icon-heart-col",
       "flex-layout.col#icon-login-col",
+/*       "login", */
       "flex-layout.col#icon-minicart-col"
+/*       "minicart.v2" */
     ]
   },
 

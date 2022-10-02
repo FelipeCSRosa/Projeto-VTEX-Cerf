@@ -4,5 +4,8 @@
   },
   "news": {
     "component": "News"
+  },
+  "depoimento": {
+    "component": "Depoimento"
   }
 }

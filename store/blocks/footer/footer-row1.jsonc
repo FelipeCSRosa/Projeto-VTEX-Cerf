@@ -92,8 +92,8 @@
     },
     "children": [
       "flex-layout.col#institucional",
-      "flex-layout.col#institucional",
-      "flex-layout.col#institucional"
+      "flex-layout.col#ipoliticas",
+      "flex-layout.col#ajuda"
     ]
   },
 
@@ -107,14 +107,12 @@
       "vtex.menu@2.x:menu#institucional"
     ]
   },
-
   "rich-text#institucional":{
     "props": {
       "text": "INSTITUCIONAL",
       "blockClass": "institucional"
     }
   },
-
   "vtex.menu@2.x:menu#institucional": {
     "props": {
       "blockClass": "menu-footer",
@@ -126,7 +124,6 @@
       "menu-item#blog"
     ]
   },
-
   "menu-item#sobrenos": {
     "props": {
       "blockClass": "menu-footer-item",
@@ -143,7 +140,6 @@
       }
     }
   },
-
   "menu-item#nossaslojas": {
     "props": {
       "blockClass": "menu-footer-item",
@@ -160,7 +156,6 @@
       }
     }
   },
-
   "menu-item#blog": {
     "props": {
       "blockClass": "menu-footer-item",
@@ -178,26 +173,172 @@
     }
   },
 
-  "vtex.menu@2.x:menu#politicas": {
+  "flex-layout.col#ipoliticas":{
     "props": {
-      "orientation": "vertical"
+      "blockClass": ["menucol","institucional"],
+      "verticalAlign": "middle"
     },
     "children": [
-      "menu-item#sobrenos",
-      "menu-item#nossaslojas",
-      "menu-item#blog",
-      "menu-item#sobrenos"
+      "rich-text#politicas",
+      "vtex.menu@2.x:menu#politicas"
     ]
   },
-
-  "vtex.menu@2.x:menu#ajuda": {
+  "rich-text#politicas":{
     "props": {
+      "text": "POLÍTICAS",
+      "blockClass": "institucional"
+    }
+  },
+  "vtex.menu@2.x:menu#politicas": {
+    "props": {
+      "blockClass": "menu-footer",
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#sobrenos",
-      "menu-item#nossaslojas",
-      "menu-item#blog"
+      "menu-item#privacidade",
+      "menu-item#trocas",
+      "menu-item#pagamento",
+      "menu-item#frete"
     ]
+  },
+  "menu-item#privacidade": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "privacidade",
+        "text": "Política de Privacidade"
+      }
+    }
+  },
+  "menu-item#trocas": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "trocas",
+        "text": "Trocas e Devoluções"
+      }
+    }
+  },
+  "menu-item#pagamento": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "pagamento",
+        "text": "Formas de Pagamento"
+      }
+    }
+  },
+  "menu-item#frete": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "frete",
+        "text": "Regra de Frete Grátis"
+      }
+    }
+  },
+
+  "flex-layout.col#ajuda":{
+    "props": {
+      "blockClass": ["menucol","institucional"],
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#ajuda",
+      "vtex.menu@2.x:menu#ajuda"
+    ]
+  },
+  "rich-text#ajuda":{
+    "props": {
+      "text": "AJUDA",
+      "blockClass": "institucional"
+    }
+  },
+  "vtex.menu@2.x:menu#ajuda": {
+    "props": {
+      "blockClass": "menu-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#myfaq",
+      "menu-item#comocomprar",
+      "menu-item#faleconosco"
+    ]
+  },
+  "menu-item#myfaq": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "faq",
+        "text": "Perguntas Frequentes"
+      }
+    }
+  },
+  "menu-item#comocomprar": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "comocomprar",
+        "text": "Como Comprar"
+      }
+    }
+  },
+  "menu-item#faleconosco": {
+    "props": {
+      "blockClass": "menu-footer-item",
+      "id": "menu-item-sobrenos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "faleconosco",
+        "text": "Fale Conosco"
+      }
+    }
   }
 }

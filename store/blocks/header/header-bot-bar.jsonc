@@ -47,6 +47,59 @@
         "viewBox": "0 0 13 13"
       },
       "iconPosition": "right"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#todas-categorias"]
+  },
+  "vtex.menu@2.x:submenu#todas-categorias": {
+    "props":{
+      "blockClass": "submenu-todas-categorias-container"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-todas-categorias"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-todas-categorias": {
+    "props":{
+      "blockClass": "submenu-todas-categorias",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste",
+      "menu-item#categoria-teste"
+    ]
+  },
+  "menu-item#categoria-teste":{
+    "props": {
+      "blockClass": "menu-item-categoria-teste",
+      "id": "menu-item-categoria-teste",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Categoriateste",
+        "text": "Categoria Teste"
+      },
+      "iconProps": {
+        "id": "hpa-arrow-to-right",
+        "size": 13,
+        "viewBox": "0 0 13 13"
+      },
+      "iconPosition": "right"
     }
   },
 

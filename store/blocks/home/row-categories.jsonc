@@ -27,35 +27,34 @@
     "children": [
       "flex-layout.col#categorie1",
       "flex-layout.col#categorie2",
+      "flex-layout.col#categorie3",
+      "flex-layout.col#categorie4",
+      "flex-layout.col#categorie5",
+      "flex-layout.col#categorie6",
       "flex-layout.col#categorie1",
       "flex-layout.col#categorie2",
+      "flex-layout.col#categorie3",
+      "flex-layout.col#categorie4",
+      "flex-layout.col#categorie5",
+      "flex-layout.col#categorie6",
       "flex-layout.col#categorie1",
       "flex-layout.col#categorie2",
+      "flex-layout.col#categorie3",
+      "flex-layout.col#categorie4",
+      "flex-layout.col#categorie5",
+      "flex-layout.col#categorie6",
       "flex-layout.col#categorie1",
       "flex-layout.col#categorie2",
-      "flex-layout.col#categorie1",
-      "flex-layout.col#categorie2",
-      "flex-layout.col#categorie1",
-      "flex-layout.col#categorie2",
-      "flex-layout.col#categorie1",
-      "flex-layout.col#categorie2",
-      "flex-layout.col#categorie1",
-      "flex-layout.col#categorie2",
-      "flex-layout.col#categorie1",
-      "flex-layout.col#categorie2",
-      "flex-layout.col#categorie1",
-      "flex-layout.col#categorie2",
-      "flex-layout.col#categorie1",
-      "flex-layout.col#categorie2",
-      "flex-layout.col#categorie1",
-      "flex-layout.col#categorie2"
+      "flex-layout.col#categorie3",
+      "flex-layout.col#categorie4",
+      "flex-layout.col#categorie5",
+      "flex-layout.col#categorie6"
     ]
   },
 
   "flex-layout.col#categorie1":{
     "props": {
-      "blockClass": "categories",
-      "verticalAlign": "middle"
+      "blockClass": "categories"
     },
     "children": [
       "flex-layout.row#image-categorie1",
@@ -88,8 +87,7 @@
 
   "flex-layout.col#categorie2":{
     "props": {
-      "blockClass": "categories",
-      "verticalAlign": "middle"
+      "blockClass": "categories"
     },
     "children": [
       "flex-layout.row#image-categorie2",
@@ -115,6 +113,134 @@
   "rich-text#categorie2":{
     "props": {
       "text": "FITNESS",
+      "blockClass": "categories"
+    }
+  },
+
+  "flex-layout.col#categorie3":{
+    "props": {
+      "blockClass": "categories"
+    },
+    "children": [
+      "flex-layout.row#image-categorie3",
+      "rich-text#categorie3"
+    ]
+  },
+  "flex-layout.row#image-categorie3":{
+    "props": {
+      "blockClass": "categories-image",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":["image#categorie3"]
+  },
+  "image#categorie3":{
+    "props": {
+      "src": "assets/imgs/categories/eletrodomesticos.png",
+      "maxHeight": "118px"
+    }
+  },
+  "rich-text#categorie3":{
+    "props": {
+      "text": "ELETRODOMÉSTICOS",
+      "blockClass": "categories"
+    }
+  },
+
+  "flex-layout.col#categorie4":{
+    "props": {
+      "blockClass": "categories"
+    },
+    "children": [
+      "flex-layout.row#image-categorie4",
+      "rich-text#categorie4"
+    ]
+  },
+  "flex-layout.row#image-categorie4":{
+    "props": {
+      "blockClass": "categories-image",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":["image#categorie4"]
+  },
+  "image#categorie4":{
+    "props": {
+      "src": "assets/imgs/categories/celulares.png",
+      "maxHeight": "118px"
+    }
+  },
+  "rich-text#categorie4":{
+    "props": {
+      "text": "CELULARES",
+      "blockClass": "categories"
+    }
+  },
+
+  "flex-layout.col#categorie5":{
+    "props": {
+      "blockClass": "categories"
+    },
+    "children": [
+      "flex-layout.row#image-categorie5",
+      "rich-text#categorie5"
+    ]
+  },
+  "flex-layout.row#image-categorie5":{
+    "props": {
+      "blockClass": "categories-image",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":["image#categorie5"]
+  },
+  "image#categorie5":{
+    "props": {
+      "src": "assets/imgs/categories/cameras.png",
+      "maxHeight": "118px"
+    }
+  },
+  "rich-text#categorie5":{
+    "props": {
+      "text": "CÂMERAS E ACESSÓRIOS",
+      "blockClass": "categories"
+    }
+  },
+
+  "flex-layout.col#categorie6":{
+    "props": {
+      "blockClass": "categories"
+    },
+    "children": [
+      "flex-layout.row#image-categorie6",
+      "rich-text#categorie6"
+    ]
+  },
+  "flex-layout.row#image-categorie6":{
+    "props": {
+      "blockClass": "categories-image",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":["image#categorie6"]
+  },
+  "image#categorie6":{
+    "props": {
+      "src": "assets/imgs/categories/games.png",
+      "maxHeight": "118px"
+    }
+  },
+  "rich-text#categorie6":{
+    "props": {
+      "text": "GAMES",
       "blockClass": "categories"
     }
   }

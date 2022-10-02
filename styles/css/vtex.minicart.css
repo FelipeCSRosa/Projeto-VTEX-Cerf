@@ -1,0 +1,13 @@
+.openIconContainer{
+  padding: 0;
+}
+
+.minicartIconContainer {
+  background: url(https://raw.githubusercontent.com/FelipeCSRosa/Projeto-VTEX-Cerf/main/assets/imgs/top-bar/minicart-icon.png) no-repeat;
+  width: 33px;
+  height: 33px;
+}
+
+.minicartIconContainer .cartIcon {
+  display: none;
+}

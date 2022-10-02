@@ -11,9 +11,11 @@
       "flex-layout.row#smartphones",
       "flex-layout.row#descontaco1",
       "flex-layout.row#descontaco2",
-      "rich-text#new-products-title",
+      "rich-text#promo-title",
       "flex-layout.row#new-products",
       "flex-layout.row#descontaco-banner",
+      "rich-text#depoimentos",
+      "flex-layout.row#depoimentos",
       "flex-layout.row#instagram",
       "news"
 /*       "rich-text#shelf-title",
@@ -25,9 +27,23 @@
     ]
   },
 
+  "rich-text#depoimentos":{
+    "props": {
+      "text": "Depoimentos",
+      "blockClass": "depoimentosTitle"
+    }
+  },
+
   "rich-text#new-products-title":{
     "props": {
       "text": "Novos Produtos",
+      "blockClass": "newProdsTitle"
+    }
+  },
+
+  "rich-text#promo-title":{
+    "props": {
+      "text": "Produtos em Promoção",
       "blockClass": "newProdsTitle"
     }
   },

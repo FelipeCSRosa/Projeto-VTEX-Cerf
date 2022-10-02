@@ -1,0 +1,67 @@
+{
+  "flex-layout.row#depoimentos":{
+    "props": {
+      "blockClass": "depoimentos",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":[
+      "slider-layout#depoimentos"
+    ]
+  },
+
+  "slider-layout#depoimentos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "depoimentos",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": 
+    [
+      "depoimento#celular3",
+      "depoimento#tv4",
+      "depoimento#fone5",
+      "depoimento#celular3",
+      "depoimento#tv4",
+      "depoimento#fone5",
+      "depoimento#celular3",
+      "depoimento#tv4",
+      "depoimento#fone5",
+      "depoimento#celular3",
+      "depoimento#tv4",
+      "depoimento#fone5"
+    ]
+  },
+
+  "depoimento#celular3": {
+    "props": {
+      "starNumber": 3,
+      "produtoimg": "celular"
+    }
+  },
+
+  "depoimento#tv4": {
+    "props": {
+      "starNumber": 4,
+      "produtoimg": "tv"
+    }
+  },
+
+  "depoimento#fone5": {
+    "props": {
+      "starNumber": 5,
+      "produtoimg": "fone"
+    }
+  }
+}
