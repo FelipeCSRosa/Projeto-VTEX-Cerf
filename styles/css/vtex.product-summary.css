@@ -118,16 +118,3 @@
 .price_listPrice--smartphones{
   padding-left: 0;
 }
-
-.container .vtex-button {
-  border: none;
-  height: 49px;
-  border-radius: 10px;
-  background: #5CC02D;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: auto;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 15px;
-}
